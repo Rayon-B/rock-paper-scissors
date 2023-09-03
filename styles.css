@@ -1,8 +1,25 @@
 .header1 {
     color: red;
-    margin: 100px 0px;
-    padding: 0;
+    margin: 0;
+    padding: 100px 0px;;
     display: flex;
     text-align: center;
     justify-content: center;
+}
+
+.nav-bar {
+    text-decoration: none;
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    font-size: large;
+    color: yellow;
+    justify-content: space-around;
+    
+}
+
+.nav-left {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
 }
